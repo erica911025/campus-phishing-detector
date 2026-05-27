@@ -18,7 +18,7 @@ LLM 輔助校園釣魚信與詐騙訊息辨識系統
 | `preprocessing.py` | C 楊云綺 | 文字清洗、URL/附件偵測、關鍵字旗標、網域比對 |
 | `llm_analyzer.py` | C＋B | 呼叫 GPT-4o-mini（JSON mode）／離線啟發式備援、解析重試 |
 | `incident_response.py` | D 譚婕伶 | 三級應變 SOP 與通報草稿產生器 |
-| `app.py` | C 楊云綺 | Streamlit 介面（七區塊＋行動卡＋通報草稿＋批次頁） |
+| `app.py` | B 張芳瑜 | Streamlit 介面（七區塊＋行動卡＋通報草稿＋批次頁） |
 | `batch_run.py` | C 楊云綺 | 批次跑 50 筆 → `outputs_50.json`（給 B/D 用） |
 | `evaluate.py` | D 譚婕伶 | 混淆矩陣、Accuracy/Precision/Recall/F1、情境別、信心值校準 |
 
@@ -44,9 +44,6 @@ python batch_run.py --mock     # 離線啟發式
 
 # 5. 計算評估指標，產生 metrics_report.txt
 python evaluate.py
-```
-
-> 📡 **要部署成公開網址給老師試用？** 見 [`DEPLOY.md`](DEPLOY.md)，一步步帶你部署到 Streamlit Community Cloud（免費）。
 
 ---
 
