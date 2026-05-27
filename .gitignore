@@ -1,0 +1,13 @@
+# 機密：絕對不要上傳金鑰
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 執行產物（可選擇是否上傳；展示用可保留）
+# outputs_50.json
+# metrics_report.txt

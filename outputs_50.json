@@ -1,0 +1,707 @@
+[
+  {
+    "id": 1,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 2,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 3,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "簡訊",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 4,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "連結網域與官方網域不符"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 5,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "學校平台",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 6,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 7,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 8,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "簡訊",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 9,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "Email",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 10,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "學校平台",
+    "ground_truth_label": "低風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "訊息含外部連結"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 11,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "Email",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [
+      "訊息含外部連結"
+    ],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 12,
+    "scenario": "情境一：帳號驗證與權限異常",
+    "message_type": "簡訊",
+    "ground_truth_label": "低風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 13,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 14,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 15,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "簡訊",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 16,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "要求下載或開啟附件檔"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 17,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "連結網域與官方網域不符"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 18,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "學校平台",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 19,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "連結網域與官方網域不符"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 20,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "簡訊",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 21,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "學校平台",
+    "ground_truth_label": "低風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "訊息含外部連結"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 22,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "Email",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 23,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "LINE",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 24,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "Email",
+    "ground_truth_label": "低風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 25,
+    "scenario": "情境二：獎學金與行政表單",
+    "message_type": "學校平台",
+    "ground_truth_label": "低風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 26,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 27,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 28,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "學校平台",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 29,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "簡訊",
+    "ground_truth_label": "高風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 30,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "連結網域與官方網域不符"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 31,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 32,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求下載或開啟附件檔"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 33,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "學校平台",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "使用急迫、限時或威脅語氣"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 34,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "Email",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [
+      "訊息含外部連結"
+    ],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 35,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "LINE",
+    "ground_truth_label": "低風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 36,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "Email",
+    "ground_truth_label": "低風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求下載或開啟附件檔"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 37,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "學校平台",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [
+      "訊息含外部連結"
+    ],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 38,
+    "scenario": "情境三：實習徵才與職場陷阱",
+    "message_type": "簡訊",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 39,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 40,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符",
+      "要求下載或開啟附件檔"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 41,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求下載或開啟附件檔"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 42,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "連結網域與官方網域不符",
+      "要求下載或開啟附件檔"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 43,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 44,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "簡訊",
+    "ground_truth_label": "高風險",
+    "risk_level": "medium",
+    "is_phishing": "uncertain",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料"
+    ],
+    "explanation": "這則訊息出現少數可疑特徵，但尚無法只憑文字確認真偽，建議先向官方查證。",
+    "recommended_action": "先暫停點擊連結或填表，改用官方管道（系辦、資訊中心、官網）確認訊息真實性後再決定。",
+    "confidence": 0.6
+  },
+  {
+    "id": 45,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "LINE",
+    "ground_truth_label": "高風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 46,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "Email",
+    "ground_truth_label": "高風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "連結網域與官方網域不符",
+      "要求下載或開啟附件檔"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  },
+  {
+    "id": 47,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "Email",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [
+      "訊息含外部連結"
+    ],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 48,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "LINE",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 49,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "Email",
+    "ground_truth_label": "低風險",
+    "risk_level": "low",
+    "is_phishing": "no",
+    "suspicious_features": [],
+    "explanation": "訊息未要求帳密或個資、無可疑連結、語氣正常，與一般校園通知相符。",
+    "recommended_action": "目前看起來沒有明顯危險特徵，無需特別處理；若仍有疑慮，可至官方網站確認。",
+    "confidence": 0.8
+  },
+  {
+    "id": 50,
+    "scenario": "情境四：師長委託與課程公告",
+    "message_type": "學校平台",
+    "ground_truth_label": "低風險",
+    "risk_level": "high",
+    "is_phishing": "yes",
+    "suspicious_features": [
+      "要求提供帳號、密碼或個人敏感資料",
+      "要求下載或開啟附件檔"
+    ],
+    "explanation": "這則訊息同時出現索取個資、可疑連結或限時施壓等強指標，符合常見釣魚/詐騙手法。",
+    "recommended_action": "不要點擊連結、不要輸入帳密或提供個資。請改從官方網站或官方電話查證，並向學校資訊中心回報這則訊息。",
+    "confidence": 0.8
+  }
+]
